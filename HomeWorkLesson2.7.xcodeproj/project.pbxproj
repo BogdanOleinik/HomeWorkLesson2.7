@@ -16,6 +16,7 @@
 		43A84C5B279A982100EDBAC6 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A84C5A279A982100EDBAC6 /* ContactListViewController.swift */; };
 		43A84C5D279AA1AB00EDBAC6 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A84C5C279AA1AB00EDBAC6 /* Person.swift */; };
 		43A84C5F279AA1CC00EDBAC6 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A84C5E279AA1CC00EDBAC6 /* DataManager.swift */; };
+		43A84C66279B22C100EDBAC6 /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A84C65279B22C100EDBAC6 /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		43A84C5A279A982100EDBAC6 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		43A84C5C279AA1AB00EDBAC6 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		43A84C5E279AA1CC00EDBAC6 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		43A84C65279B22C100EDBAC6 /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +69,6 @@
 				43A84C63279B1B8300EDBAC6 /* Models */,
 				43A84C62279B1B6D00EDBAC6 /* StoryBoards */,
 				43A84C60279B1B1900EDBAC6 /* Resources */,
-				43A84C5A279A982100EDBAC6 /* ContactListViewController.swift */,
 			);
 			path = HomeWorkLesson2.7;
 			sourceTree = "<group>";
@@ -112,6 +113,8 @@
 			children = (
 				43A84C48279A972D00EDBAC6 /* SceneDelegate.swift */,
 				43A84C4A279A972D00EDBAC6 /* ViewController.swift */,
+				43A84C65279B22C100EDBAC6 /* ContactDetailViewController.swift */,
+				43A84C5A279A982100EDBAC6 /* ContactListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				43A84C5D279AA1AB00EDBAC6 /* Person.swift in Sources */,
 				43A84C5F279AA1CC00EDBAC6 /* DataManager.swift in Sources */,
 				43A84C4B279A972D00EDBAC6 /* ViewController.swift in Sources */,
+				43A84C66279B22C100EDBAC6 /* ContactDetailViewController.swift in Sources */,
 				43A84C5B279A982100EDBAC6 /* ContactListViewController.swift in Sources */,
 				43A84C47279A972D00EDBAC6 /* AppDelegate.swift in Sources */,
 				43A84C49279A972D00EDBAC6 /* SceneDelegate.swift in Sources */,
