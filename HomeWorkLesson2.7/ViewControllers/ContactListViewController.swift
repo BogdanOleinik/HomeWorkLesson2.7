@@ -9,12 +9,7 @@ import UIKit
 
 class ContactListViewController: UITableViewController {
 
-    var persons = Person.getContactList()
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
+    var persons: [Person] = []
 
     // MARK: - Table view data source
 
@@ -23,7 +18,7 @@ class ContactListViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "contactList", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         var content = cell.defaultContentConfiguration()
         let person = persons[indexPath.row]
         
@@ -34,9 +29,9 @@ class ContactListViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let indexRow = tableView.indexPathForSelectedRow {
+        if let indexPath = tableView.indexPathForSelectedRow {
             let detailVC = segue.destination as! ContactDetailViewController
-            detailVC.person = persons[indexRow.row]
+            detailVC.person = persons[indexPath.row]
         }
     }
 }
