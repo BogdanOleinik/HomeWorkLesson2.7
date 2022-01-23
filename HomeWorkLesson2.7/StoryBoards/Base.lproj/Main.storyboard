@@ -34,7 +34,7 @@
                             <outlet property="delegate" destination="CEm-og-kvw" id="gQ1-OK-4E0"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Contacts" selectedImage="person.fill" catalog="system" id="emc-fG-lze"/>
+                    <tabBarItem key="tabBarItem" title="Contacts" image="person.fill" catalog="system" id="emc-fG-lze"/>
                     <navigationItem key="navigationItem" title="Contact List" id="lUr-pW-EdN"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DAs-Gm-6bp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
